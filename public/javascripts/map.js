@@ -1,5 +1,5 @@
 console.log("Hola mundo")
-var map = L.map('main_map').setView([-12.04591,-77.03047],18);
+let map = L.map('main_map').setView([-12.04591,-77.03047],18);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
