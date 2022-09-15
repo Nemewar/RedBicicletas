@@ -36,11 +36,11 @@ Bicicleta.removeById = function(aBiciId){
     }
 }
 
-
+/*
 const a = new Bicicleta(1,"rojo","urbana",[-12.045498,-77.030261]);
 const b = new Bicicleta(2,"blanca","urbana",[-12.045653,-77.031095]);
 
 Bicicleta.add(a);
 Bicicleta.add(b);
-
+*/
 module.exports = Bicicleta;
